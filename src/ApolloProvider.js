@@ -8,7 +8,7 @@ import { setContext } from "apollo-link-context";
 
 // Link to gql server
 const httpLink = createHttpLink({
-  uri: "http://localhost:5000",
+  uri: "https://gentle-harbor-83265.herokuapp.com/",
 });
 
 // Use authorization token in header
